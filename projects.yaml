@@ -553,7 +553,7 @@ projects:
     pypi_id: spacy-transformers
     conda_id: conda-forge/spacy-transformers
     category: nlp
-    labels: ["spacy"]
+    labels: []
   - name: Camphr
     github_id: PKSHATechnology-Research/camphr
     pypi_id: camphr
@@ -1001,6 +1001,12 @@ projects:
     pypi_id: plotly-resampler
     conda_id: conda-forge/plotly-resampler
     category: data-viz
+  - name: ridgeplot
+    github_id: tpvasconcelos/ridgeplot
+    pypi_id: ridgeplot
+    license: MIT
+    docs_url: https://ridgeplot.readthedocs.io/
+    category: data-viz
   - name: HoloViews
     github_id: holoviz/holoviews
     pypi_id: holoviews
@@ -1180,6 +1186,10 @@ projects:
     pypi_id: pyqtgraph
     conda_id: conda-forge/pyqtgraph
     category: data-viz
+  - name: effector
+    github_id: givasile/effector
+    pypi_id: effector
+    category: interpretability
   - name: What-If Tool
     github_id: PAIR-code/what-if-tool
     pypi_id: witwidget
@@ -3948,9 +3958,8 @@ projects:
     pypi_id: textflint
     category: adversarial
   - name: Coqui TTS
-    github_id: coqui-ai/TTS
-    pypi_id: tts
-    conda_id: conda-forge/tts
+    github_id: idiap/coqui-ai-TTS
+    pypi_id: coqui-tts
     category: audio
     labels: ["pytorch", "tensorflow"]
   - name: speechbrain
@@ -4390,7 +4399,7 @@ projects:
     pypi_id: collie
     category: recommender-systems
     labels: ["pytorch"]
-  - name: uber/orbit
+  - name: Orbit
     github_id: uber/orbit
     pypi_id: orbit-ml
     conda_id: conda-forge/orbit-ml
@@ -4628,3 +4637,34 @@ projects:
     github_id: run-house/runhouse
     pypi_id: runhouse
     category: ml-frameworks
+  - name: Opik
+    github_id: comet-ml/opik
+    pypi_id: opik
+    category: nlp
+  - name: TorchUncertainty
+    github_id: ENSTA-U2IS-AI/torch-uncertainty
+    pypi_id: torch-uncertainty
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: pyclugen
+    github_id: clugen/pyclugen
+    pypi_id: pyclugen
+    category: data-pipelines
+  - name: skrub
+    github_id: skrub-data/skrub
+    pypi_id: skrub
+    category: tabular
+    labels: ["sklearn", "pandas"]
+  - name: deepinv
+    github_id: deepinv/deepinv
+    pypi_id: deepinv
+    docs_url: https://deepinv.github.io/deepinv/
+    category: ml-frameworks
+  - name: Pathway
+    github_id: pathwaycom/pathway
+    pypi_id: pathway
+    docs_url: https://pathway.com/framework/
+    category: data-pipelines
+  - github_id: juspay/neurolink
+    category: ml-frameworks
+    description: Enterprise-grade LLM integration framework for building production-ready AI applications with built-in hallucination prevention, RAG, and MCP support
